@@ -1,0 +1,192 @@
+/* adding the sources used as variables */
+:root {
+    --main-font: "Poppins";
+    --secondary: "Fredoka One";
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    overflow: hidden;
+    font-family: var(--main-font);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+nav img {
+    margin-left: 3em;
+}
+
+.nav-items {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.active-item {
+    color: rgb(241, 72, 0);
+    font-weight: 800;
+}
+
+.intro-section {
+    display: flex;
+    margin-left:3em;
+    margin-top: 2em;
+}
+
+.left-section {
+    width: 50vw;
+    text-align:left;
+    padding-top: 3em;
+    /* word-wrap: break-word; */
+}
+
+.left-section h3 {
+    font-size: 2.2em;
+}
+.left-section h3 img {
+    height: 35px;
+}
+.left-section h1 {
+    font-weight: 900;
+    font-size: 4.5em;
+    font-family: var(--secondary);
+}
+
+.sub-headlines {
+    font-weight: 200;
+    font-size: 1.2em;
+    line-height: 1em;
+    margin: 1.5em;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sub-headline {
+    margin: 2px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    display: inline-flex;
+    align-items: center;
+}
+
+.sub-headlines img {
+    background-color: #fe5e35;
+    border-radius: 1em;    
+}
+
+.text {
+    width: 45vw;
+    font-weight: lighter;
+    font-size: 1em;
+    color: gray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.action-btns {
+    padding: 2em;
+    margin-top: 1em;
+}
+
+
+
+.action-btn {
+    padding: 1em 2em;
+    border-radius: 1.2em;
+    font-size:1em;
+    color: white;
+    background-color: #fe5e35;
+    border: 0;
+    margin-right: 1.3em;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.headphone-div{
+    position: relative;
+    text-align:center;
+}
+
+.headphone-div img[alt="discount"] {
+    position: absolute;
+    z-index: 100;
+    top: 40vh;
+    height: 160px;
+    width: 160px;
+}
+
+.discount-content {
+    position: absolute;
+    z-index: 120;
+    top: 45vh;
+    left: 3vh;
+}
+.discount-content h4 {
+    font-family: var(--secondary);
+    font-size: 18px;
+    padding-left: 22px;
+    float: right;
+    color: white;
+
+}
+
+.discount-content h1 {
+    font-family: var(--secondary);
+    font-size: 2.5em;
+    color: white;
+}
+
+img[alt="headphone"] {
+    float: right;
+    padding-left: 2em;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.dot {
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    margin: 0.8em;
+}
+
+.yellow-dot {
+    background-color: yellow;
+}
+
+.tomato-dot {
+    background-color: red;
+}
+
+.black-dot {
+    background-color: black;
+}
+
+.right-section .action-btn {
+    margin-top: 2em;
+    margin-left: 1.6em;
+    align-self: center;
+    /* width:20vw; */
+}
