@@ -13,6 +13,7 @@
 - Developed with html5 and css 3
 - No additional packages
 - Tested with firefox and chrome.
+- Mobile responsive
 
 # Links
 
