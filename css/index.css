@@ -190,3 +190,104 @@ img[alt="headphone"] {
     align-self: center;
     /* width:20vw; */
 }
+.nav-items-mob {
+    display: none;
+}
+
+@media screen and (max-width: 428px) {
+    html {
+        overflow: auto;
+    }
+    .nav-items {
+        display: none;
+    }
+    nav {
+        /* border: 2px solid red; */
+        padding:12px;
+        justify-content: center;
+    }
+    nav img[alt="actions"] {
+        height: 39px;
+    }
+    nav img[alt="logo"]{
+        height: 39px;
+    }
+    .intro-section {
+        flex-direction: column;
+        margin: 12px;
+        padding: 1em;
+    }
+    .left-section {
+        width: 80%;
+    }
+    .left-section h3 {
+        font-size: 1.7em;
+    }
+    .left-section h3 img {
+        height: 25px;
+    }
+    .left-section h1 {
+        font-size: 3em;
+    }
+    .sub-headline {
+        line-height: 1.8em;
+        align-items: baseline;
+    }
+    .text {
+        margin-top: 12px;
+        width: 100%;
+        /* border: 2px solid greenyellow; */
+        padding: 2em;
+        padding-bottom: 12px;
+    }
+    .action-btns {
+        margin-top: -2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .action-btn {
+        margin: 12px;
+    }
+    .right-section {
+        height: auto;
+    }
+    img[alt="headphone"] {
+        float: none;
+        padding:1em;
+        width: 90%;
+    }
+    .headphone-div img[alt="discount"] {
+        position: absolute;
+        z-index: 100;
+        top: 1vh;
+        height: 140px;
+        width: 140px;
+    }
+    .discount-content {
+        position: absolute;
+        z-index: 120;
+        top: 6vh;
+        left: 1vh;
+    }
+    .discount-content h4 {
+        font-family: var(--secondary);
+        font-size: 20px;
+        padding-left: 22px;
+        float: right;
+        color: rgb(251, 251, 251);
+    
+    }
+    
+    .discount-content h1 {
+        font-family: var(--secondary);
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+    }
+    .nav-items-mob {
+        display: flex;
+        padding: 1em;
+        margin-bottom: 2em;
+        justify-content: space-around;
+        font-size: 1.4em;
+    }
+}
